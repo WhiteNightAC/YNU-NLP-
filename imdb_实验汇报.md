@@ -19,15 +19,21 @@
 
 以下结果依据kaggle提交分数按分数从高到低排序。
 
-| 排名 | 方法                       | Kaggle Score |
-| ---- | -------------------------- | ------------ |
-| 1    | CNN                        | **0.96532**  |
-| 2    | CNN + LSTM                 | 0.93863      |
-| 3    | LSTM                       | 0.93578      |
-| 4    | Random Forest              | 0.84248      |
-| 5    | 平均词向量 + Random Forest | 0.83316      |
-| 6    | 聚类+Random Forest         | 0.78620      |
+| 排名 | 方法 | Kaggle Score |
+| --- | --- | --- |
+| 1 | CNN | 0.96532 |
+| 2 | Attention + LSTM | 0.96308 |
+| 3 | GRU | 0.96128 |
+| 4 | Capsule + LSTM | 0.95790 |
+| 5 | Transformer | 0.95691 |
+| 6 | BERT（从零训练） | 0.94703 |
+| 7 | CNN + LSTM | 0.93863 |
+| 8 | LSTM | 0.93578 |
+| 9 | Random Forest | 0.84248 |
+| 10 | 平均词向量 + Random Forest | 0.83316 |
+| 11 | 聚类 + Random Forest | 0.78620 |
 
+11.8日更新了 gru、capsule_lstm、attention_lstm、transformer、bert_scratch 实验评分
 
 
 实验代码见主页word2vec.ipynb
