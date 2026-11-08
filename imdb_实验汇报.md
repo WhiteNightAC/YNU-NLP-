@@ -42,5 +42,5 @@
 
 ## 下一步计划：
 
-- 使用gru,attention_lstm,capsule_lstm,transformer,bert_scratch方法
+- 使用bert_native、bert_trainer、distilbert_native、distilbert_trainer、roberta_trainer方法
 
