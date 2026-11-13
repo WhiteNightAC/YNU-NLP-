@@ -1,7 +1,6 @@
 # IMDB 实验
 
-实验基于 Kaggle **Bag of Words Meets Bags of Popcorn / Word2Vec NLP Tutorial** 的 IMDB 电影评论情感分析项目。当前先进行了部分方法的实验，实验还在更新中。
-
+实验基于 Kaggle **Bag of Words Meets Bags of Popcorn / Word2Vec NLP Tutorial** 的 IMDB 电影评论情感分析项目。
 ## 数据集
 
 数据来自 Kaggle 的 [Word2Vec NLP Tutorial](https://www.kaggle.com/competitions/word2vec-nlp-tutorial)。
@@ -46,9 +45,5 @@
 
 实验代码见主页word2vec.ipynb
 
-
-
-## 下一步计划：
-
-- 使用bert_native、bert_trainer、distilbert_native、distilbert_trainer、roberta_trainer方法
+实验完结
 
